@@ -6,13 +6,13 @@ $(document).ready(function () {
         var fizzBuzz = function (count) {
             for (var i = 1; i <= count; i++) {
                 if (i%3 === 0 && i%5 === 0)  {
-                    hits.append(" fizzbuzz ");
+                    hits.append(" fizzbuzz, ");
                 }
                 else if (i%5 === 0) {
-                    hits.append(" buzz ");
+                    hits.append(" buzz, ");
                 }
                 else if (i%3 === 0 ) {
-                    hits.append(" fizz ");
+                    hits.append(" fizz, ");
                 }
                 else {
                     hits.append("" + i + ",");
