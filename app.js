@@ -26,7 +26,6 @@ $(document).ready(function () {
         else {
             alert("Please enter a value");
         }
-        num.val('');
     });
 });
 
